@@ -14,6 +14,7 @@ This webpage will showcase my projects. Where, potential hiring managers and tea
 - [ ] Add Projects from my [GitHub](https://github.com/Peebs-Tech) repositories
 - [ ] Provide better introduction for myself
 - [ ] Make the "Get in touch" working
+- [ ] Edit resume 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
