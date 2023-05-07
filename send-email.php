@@ -1,4 +1,7 @@
 <?php
+ error_reporting(E_ALL);
+ ini_set('display_errors', 1);
+ 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
@@ -15,6 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     mail($to, $subject, $body);
+
+   
 }
 ?>
 This script retrieves the form data using the $_POST superglobal variable and sends an email to kinpintucan@gmail.com with the form data. Note that this is a very basic example and you should implement proper form validation and security measures before deploying a form on a production website.
