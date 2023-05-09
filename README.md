@@ -11,10 +11,11 @@ This webpage will showcase my projects. Where, potential hiring managers and tea
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add Projects from my [GitHub](https://github.com/Peebs-Tech) repositories
-- [ ] Provide better introduction for myself
-- [ ] Make the "Get in touch" working
-- [ ] Edit resume 
+- [x] Add Projects from my [GitHub](https://github.com/Peebs-Tech) repositories
+- [x] Provide better introduction for myself
+- [x] Make the "Get in touch" working
+- [x] Edit resume 
+- [ ] Change theme color
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
