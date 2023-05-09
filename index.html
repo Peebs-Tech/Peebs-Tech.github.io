@@ -9,6 +9,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<head>
+		<script type="text/javascript">
+		  function configureAhoy() {
+			ahoy.configure({
+			  visitsUrl: "https://usebasin.com/ahoy/visits",
+			  eventsUrl: "https://usebasin.com/ahoy/events",
+			  page: "5b4528787c80" /* Use your form id here */
+			});
+			ahoy.trackView();
+			ahoy.trackSubmits();
+		  }
+		</script>
+		<script
+		  src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.9/dist/ahoy.min.js"
+		  async
+		  defer
+		  onload="configureAhoy()"
+		></script>
+	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -80,25 +99,7 @@
 								</form>
 								
 							</div>
-							<head>
-								<script type="text/javascript">
-								  function configureAhoy() {
-									ahoy.configure({
-									  visitsUrl: "https://usebasin.com/ahoy/visits",
-									  eventsUrl: "https://usebasin.com/ahoy/events",
-									  page: "5b4528787c80" /* Use your form id here */
-									});
-									ahoy.trackView();
-									ahoy.trackSubmits();
-								  }
-								</script>
-								<script
-								  src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.9/dist/ahoy.min.js"
-								  async
-								  defer
-								  onload="configureAhoy()"
-								></script>
-							</head>
+							
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
 									<li>
